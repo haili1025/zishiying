@@ -1,0 +1,28 @@
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+	margin: 0;
+}
+ul,ol,input,dl,dd{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+}
+img{
+	vertical-align: top;
+	width: 100%;
+}
+
+a{
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+	
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.wrap{
+	width: 1216px;
+	margin: 0 auto;
+}
